@@ -14,6 +14,12 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
+    @IBAction func experiment(sender: UIButton) {
+        
+        let nextController = UIImagePickerController()
+        
+        present(nextController, animated: true, completion: nil)
+    }
 
 }
 
